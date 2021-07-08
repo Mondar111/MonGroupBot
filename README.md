@@ -1,24 +1,24 @@
-# ✨ WilliamButcherBot ✨
+# 🌺 Alexa Group Management Bot 🌺
 ### Telegram Group Manager Bot + Userbot Written In Python Using Pyrogram.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/TheHamkerCat/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/levina-lab/)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![LICENSE](https://img.shields.io/github/license/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor)&nbsp;
-![Contributors](https://img.shields.io/github/contributors/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor)&nbsp;
-![Repository Size](https://img.shields.io/github/repo-size/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![LICENSE](https://img.shields.io/github/license/levina-lab/AlexaGroupBot?style=for-the-badge&logo=appveyor)&nbsp;
+![Contributors](https://img.shields.io/github/contributors/levina-lab/AlexaGroupBot?style=for-the-badge&logo=appveyor)&nbsp;
+![Repository Size](https://img.shields.io/github/repo-size/levina-lab/AlexaGroupBot?style=for-the-badge&logo=appveyor)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Python Version](https://img.shields.io/badge/python-3.8-green?style=for-the-badge&logo=appveyor)&nbsp;
-![Issues](https://img.shields.io/github/issues/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor)&nbsp;
-![Forks](https://img.shields.io/github/forks/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor)&nbsp;
-![Stars](https://img.shields.io/github/stars/thehamkercat/WilliamButcherBot?style=for-the-badge&logo=appveyor)
+![Issues](https://img.shields.io/github/issues/levina-lab/AlexaGroupBot?style=for-the-badge&logo=appveyor)&nbsp;
+![Forks](https://img.shields.io/github/forks/levina-lab/AlexaGroupBot?style=for-the-badge&logo=appveyor)&nbsp;
+![Stars](https://img.shields.io/github/stars/levina-lab/AlexaGroupBot?style=for-the-badge&logo=appveyor)
 
 
 
-<img src="https://static2.aniimg.com/upload/20170515/414/c/d/7/cd7EEF.jpg" width="300" align="right">
+<img src="https://i.postimg.cc/zfxFGJnR/logo7-8-12585.png" width="300" align="right">
 
 
 ## Requirements
@@ -61,7 +61,7 @@ $ pip3 install pyrogram TgCrypto
 $ python3 str_gen.py
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/thehamkercat/WilliamButcherBot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/AlexaGroupBot/)
 
 
 # Docker
@@ -134,6 +134,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Note
+## Support 🌺
 
-1. Support Chat: [WbbSupport](https://t.me/wbbsupport)
+1. Support Chat : [Veez Project Chats](https://t.me/gcsupportbots)
+2. Channel Suuport : [Veez Project Channel](https://t.me/levinachannel)
+
+## Credit 💖
+
+1. [Levina Shavila](github.com/levina-lab)
+2. [TheHamkerCat](github.com/thehamkercat)
