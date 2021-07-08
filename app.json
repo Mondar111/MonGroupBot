@@ -1,8 +1,8 @@
 {
-    "name": "WilliamButcherBot",
+    "name": "Alexa Group Bot",
     "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
-    "repository": "https://github.com/thehamkercat/WilliamButcherBot",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "repository": "https://github.com/levina-lab/AlexaGroupBot",
+    "logo": "https://i.postimg.cc/zfxFGJnR/logo7-8-12585.png",
     "keywords": [
     "python3",
     "telegram",
