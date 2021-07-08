@@ -32,7 +32,7 @@
 ## Install Locally Or On A VPS
 
 ```sh
-$ git clone https://github.com/thehamkercat/WilliamButcherBot
+$ git clone https://github.com/levina-lab/AlexaGroupBot
 
 $ cd WilliamButcherBot
 
@@ -52,7 +52,7 @@ $ python3 -m wbb
 ## Generating Pyrogram Session For Heroku
 
 ```
-$ git clone https://github.com/TheHamkerCat/WilliamButcherBot
+$ git clone https://github.com/levina-lab/AlexaGroupBot
 
 $ cd WilliamButcherBot
 
@@ -139,7 +139,7 @@ SOFTWARE.
 1. Support Chat : [Veez Project Chats](https://t.me/gcsupportbots)
 2. Channel Suuport : [Veez Project Channel](https://t.me/levinachannel)
 
-## Credit 💖
+## Credits 💖
 
 1. [Levina Shavila](github.com/levina-lab)
 2. [TheHamkerCat](github.com/thehamkercat)
