@@ -38,13 +38,13 @@ from wbb.utils.dbfunctions import (add_gban_user, get_served_chats,
                                    is_gbanned_user, remove_gban_user,
                                    start_restart_stage)
 
-__MODULE__ = "Sudoers"
+__MODULE__ = "📚 sudoers"
 __HELP__ = """
-/stats - To Check System Status.
-/gstats - To Check Bot's Global Stats.
-/gban - To Ban A User Globally.
-/broadcast - To Broadcast A Message To All Groups.
-/update - To Update And Restart The Bot
+/stats - untuk memriksa status system.
+/gstats - memeriksa statistik global bot.
+/gban - banned user secara global.
+/broadcast - kirim pesan broadcast ke semua grup.
+/update - untuk update dan restart bot.
 """
 
 # Stats Module
@@ -57,7 +57,7 @@ async def bot_sys_stats():
     disk = psutil.disk_usage("/").percent
     process = psutil.Process(os.getpid())
     stats = f"""
-{USERBOT_USERNAME}@William
+{USERBOT_USERNAME}@levinachannel
 ------------------
 UPTIME: {formatter.get_readable_time((bot_uptime))}
 BOT: {round(process.memory_info()[0] / 1024 ** 2)} MB
@@ -84,7 +84,7 @@ async def ban_globally(_, message):
     if not message.reply_to_message:
         if len(message.command) < 3:
             return await message.reply_text(
-                "**Usage:**\n/gban [USERNAME | USER_ID] [REASON]"
+                "**Contoh:**\n/gban [USERNAME | USER_ID] [ALASAN]"
             )
         user = message.text.split(None, 2)[1]
         reason = message.text.split(None, 2)[2]
@@ -94,21 +94,21 @@ async def ban_globally(_, message):
         from_user = message.from_user
         if user.id == from_user.id:
             await message.reply_text(
-                "You want to gban yourself? FOOL!"
+                "Anda mau gban diri sendiri? Jangan Bodoh!"
             )
         elif user.id == BOT_ID:
             await message.reply_text(
-                "Should i gban myself? I'm not fool like you, HUMAN!"
+                "Kenapa aku harus gban diriku sendiri? Aku tidak suka kamu, manusia!"
             )
         elif user.id in SUDOERS:
             await message.reply_text(
-                "You want to ban a sudo user? GET REKT!!"
+                "Dia tidak dapat di ban, Karena dia adalah boss saya!"
             )
         else:
             served_chats = await get_served_chats()
             m = await message.reply_text(
-                f"**Initializing WBB Global Ban Sequence To Add Restrictions On {user.mention}**"
-                + f" **This Action Should Take About {len(served_chats)} Seconds.**"
+                f"**menginisialisasi urutan larangan global wbb untuk menambahkan pembatasan {user.mention}**"
+                + f" **tindakan ini harus dilakukan {len(served_chats)} detik.**"
             )
             await add_gban_user(user.id)
             number_of_chats = 0
@@ -124,14 +124,14 @@ async def ban_globally(_, message):
             try:
                 await app.send_message(
                     user.id,
-                    f"Hello, You have been globally banned by {from_user.mention},"
-                    + " You can appeal for this ban in @WBBSupport.",
+                    f"Permisi, Anda telah di global banned {from_user.mention},"
+                    + " Anda dapat mengajukan banding atas tindakan ini di @gcsupportbots.",
                 )
             except Exception:
                 pass
-            await m.edit(f"Banned {user.mention} Globally!")
+            await m.edit(f"banned {user.mention} secara global!")
             ban_text = f"""
-__**New Global Ban**__
+__**NEW GBAN**__
 **Origin:** {message.chat.title} [`{message.chat.id}`]
 **Admin:** {from_user.mention}
 **Banned User:** {user.mention}
@@ -200,7 +200,7 @@ __**New Global Ban**__
                     user_id,
                     f"""
 Hello, You have been globally banned by {from_user_mention},
-You can appeal for this ban in @WBBSupport.""",
+You can appeal for this ban in @gcsupportbots.""",
                 )
             except Exception:
                 pass
@@ -337,7 +337,7 @@ async def update_restart(_, message):
         f'```{subprocess.check_output(["git", "pull"]).decode("UTF-8")}```'
     )
     m = await message.reply_text(
-        "**Updated with default branch, restarting now**"
+        "**updated with default branch, restarting now**"
     )
     await start_restart_stage(m.chat.id, m.message_id)
     os.execvp("python3", ["python3", "-m", "wbb"])
