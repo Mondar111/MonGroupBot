@@ -1,4 +1,4 @@
-# 🌺 Alexa Group Management Bot 🌺
+# 🚨 Mondar Group Management Bot 🚨
 ### Telegram Group Manager Bot + Userbot Written In Python Using Pyrogram.
 
 
@@ -18,7 +18,7 @@
 
 
 
-<img src="https://i.postimg.cc/zfxFGJnR/logo7-8-12585.png" width="300" align="right">
+<img src="https://telegra.ph/file/0a1b9a0331be658e64871.jpg" width="300" align="right">
 
 
 ## Requirements
@@ -136,8 +136,8 @@ SOFTWARE.
 
 ## Support 🌺
 
-1. Support Chat : [Veez Project Chats](https://t.me/gcsupportbots)
-2. Channel Suuport : [Veez Project Channel](https://t.me/levinachannel)
+1. Support Chat : [FAMILYNIRVANA](https://t.me/FAMLIYNIRVANA)
+2. Channel Suuport : [FAMLIYNVN](https://t.me/FAMILYNVN)
 
 ## Credits 💖
 
