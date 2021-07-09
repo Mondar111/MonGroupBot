@@ -1,8 +1,8 @@
 {
-    "name": "Alexa Group Bot",
+    "name": "Mondar Group Bot",
     "description": "Telegram Group Management Bot Written In Python Using Pyrogram.",
-    "repository": "https://github.com/levina-lab/AlexaGroupBot",
-    "logo": "https://i.postimg.cc/zfxFGJnR/logo7-8-12585.png",
+    "repository": "https://github.com/mondar111/MonGroupBot",
+    "logo": "https://telegra.ph/file/0a1b9a0331be658e64871.jpg",
     "keywords": [
     "python3",
     "telegram",
