@@ -136,7 +136,7 @@ SOFTWARE.
 
 ## Support 🌺
 
-1. Support Chat : [FAMILYNIRVANA](https://t.me/FAMLIYNIRVANA)
+1. Support Chat : [vipbava](https://t.me/siniajaloh)
 2. Channel Suuport : [FAMLIYNVN](https://t.me/FAMILYNVN)
 
 ## Credits 💖
